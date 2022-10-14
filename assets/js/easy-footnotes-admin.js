@@ -1,4 +1,4 @@
-jQuery(function() {
+jQuery(document).ready(function() {
     
     jQuery("input[name=hide_easy_footnote_after_posts]").click(function() {
         // only show the "Show on Front page" option when the user has decided NOT to hide the footnotes from the bottom of the posts.
